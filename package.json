@@ -1,0 +1,19 @@
+{
+  "name": "dts-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework using Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:headed": "playwright test --headed --project=chromium",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "winston": "^3.17.0"
+  }
+}
